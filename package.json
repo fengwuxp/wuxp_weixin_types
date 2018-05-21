@@ -1,0 +1,33 @@
+{
+  "name": "@types/weixin",
+  "version": "0.0.1",
+  "description": "微信 API types，公众号，小程序等",
+  "publishConfig": {
+    "registry": "http://nexus.oaknt.com:18081/repository/oak_npm_hosted/"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fengwuxp/wuxp_weixin_types.git"
+  },
+  "keywords": [
+    "rax",
+    "weex",
+    "typescript"
+  ],
+  "author": "wuxp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fengwuxp/wuxp_weixin_types/issues"
+  },
+  "homepage": "https://github.com/fengwuxp/wuxp_weixin_types#readme",
+  "devDependencies": {
+    "@types/node": "^7.0.16",
+    "awesome-typescript-loader": "^3.4.1",
+    "typescript": "^2.7.2",
+    "typings": "^2.1.1"
+  },
+  "config": {
+    "version": "0.0.1"
+  }
+}
