@@ -1,7 +1,7 @@
 /**
  * 微信用户信息
  */
-export interface WxMpUser {
+export interface WxMpUserD {
 
     /**
      *    用户是否订阅该公众号标识，值为false时，代表此用户没有关注该公众号，拉取不到其余信息。

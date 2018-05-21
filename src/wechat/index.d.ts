@@ -1,17 +1,17 @@
 /**
  * 微信小程序
  */
-import {RequestTask, RequestReq} from "./src/wechat/network/request";
-import {DownloadFileReq, DownloadTask, UploadReq, UploadTask} from "./src/wechat/network/up_down";
-import {GetNetWorkTypeOptions, NetWorkChangeResult} from "./src/wechat/device/networkType";
-import {ShowActionSheetOptions, ShowLoadingOptions, ShowModalOptions, ShowToastOptions} from "./src/wechat/ui/modal";
+import {RequestTask, RequestReq} from "./network/request/index";
+import {DownloadFileReq, DownloadTask, UploadReq, UploadTask} from "./network/up_down/index";
+import {GetNetWorkTypeOptions, NetWorkChangeResult} from "./device/networkType/index";
+import {ShowActionSheetOptions, ShowLoadingOptions, ShowModalOptions, ShowToastOptions} from "./ui/modal/index";
 import {
     GetStorageInfoOptions,
     GetStorageOptions,
     RemoveStorageOptions,
     SetStorageOptions,
     StorageInfo
-} from "./src/wechat/storage";
+} from "./storage/index";
 
 // declare namespace WeChat {
 // }
