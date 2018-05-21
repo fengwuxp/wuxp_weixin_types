@@ -1,10 +1,11 @@
 /**
  * 微信用户信息
+ * 详情请见: http://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140839&token=&lang=zh_CN
  */
-export interface WxMpUserD {
+export interface WxMpUser {
 
     /**
-     *    用户是否订阅该公众号标识，值为false时，代表此用户没有关注该公众号，拉取不到其余信息。
+     * 用户是否订阅该公众号标识，值为false时，代表此用户没有关注该公众号，拉取不到其余信息。
      */
     readonly subscribe: boolean;
 
