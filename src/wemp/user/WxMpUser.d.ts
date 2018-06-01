@@ -17,12 +17,13 @@ export interface WxMpUser {
     /**
      * 用户昵称
      */
-    readonly nickName: string;
+    readonly nickname: string;
 
     /**
-     * 用户的性别，值为1时是男性，值为2时是女性，值为0时是未知
+     * 用户的性别
      */
     readonly sex: string;
+
 
     /**
      * 用户的语言，简体中文为zh_CN
@@ -58,14 +59,13 @@ export interface WxMpUser {
 
 
     /**
-     * 只有在将公众号绑定到微信开放平台帐号后，才会出现该字段。
-     */
-
-    /**
      *    只有在用户将公众号绑定到微信开放平台帐号后，才会出现该字段。
      */
     readonly unionId?: string;
 
+    /**
+     * 用户的性别，值为1时是男性，值为2时是女性，值为0时是未知
+     */
     readonly sexId?: number;
 
     readonly remark?: string;
